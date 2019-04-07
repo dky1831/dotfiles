@@ -122,7 +122,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PATH=~/.dotfiles/.mysoftwares
+PATH=~/.dotfiles/.mysoftwares:$PATH
 
 mkcd() {
         if (( $# != 1 )); then
