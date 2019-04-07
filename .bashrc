@@ -122,6 +122,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+PATH=~/.dotfiles/.mysoftwares
+
 mkcd() {
         if (( $# != 1 )); then
                 echo Usage: $0 DIRECTORY 1>&2
