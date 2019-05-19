@@ -6,7 +6,7 @@ $Config::Git_Data=<<'ENDOFGIT';
 git_commit_id='6cb72a3d7fbefb477b95588e2fd81e33073da8b3'
 git_describe='v5.28.0'
 git_branch=''
-git_uncommitted_changes='0'
-git_commit_id_title='Commit id:'
+git_uncommitted_changes='256'
+git_commit_id_title='Derived from:'
 git_commit_date='2018-06-22 16:55:13 -0600'
 ENDOFGIT

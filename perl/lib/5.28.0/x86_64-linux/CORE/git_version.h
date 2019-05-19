@@ -5,4 +5,4 @@
 #define PERL_PATCHNUM "v5.28.0"
 #define PERL_GIT_UNPUSHED_COMMITS		\
     /*leave-this-comment*/
-
+#define PERL_GIT_UNCOMMITTED_CHANGES
