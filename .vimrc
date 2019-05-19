@@ -61,3 +61,15 @@ nnoremap <C-h><C-k> :set hlsearch noignorecase nosmartcase<NL>/
 
 " Show the list of the key mappings assigned by 'nnoremap'
 nnoremap <C-h><C-l> :nnoremap<NL>
+
+" Switch to previous buffer
+nnoremap <C-h><C-n> :bprev<NL>
+
+" Show man page of shell command
+nnoremap <C-h><C-p> :!man 1 
+
+" Show man page of system call
+nnoremap <C-h><C-g> :!man 2 
+
+" Show man page of function in the standard C library
+nnoremap <C-h><C-h><C-j> :!man 3 
